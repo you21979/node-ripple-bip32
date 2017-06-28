@@ -1,6 +1,6 @@
 {
   "name": "ripple-bip32",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "bip32 for ripple",
   "main": "index.js",
   "scripts": {
@@ -24,6 +24,7 @@
     "wif": "^2.0.1"
   },
   "devDependencies": {
+    "ripple-keypairs": "0.10.0",
     "ripple-sign-keypairs": "1.0.1",
     "bip39": "^2.3.1"
   },
