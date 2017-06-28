@@ -3,6 +3,10 @@
 ripple address for bip32
 this library based on bitcoinjs-lib
 
+## warning
+
+this library is experimental status
+
 ## install
 
 ```
