@@ -13,6 +13,7 @@
   "dependencies": {
     "bigi": "^1.4.0",
     "bip66": "^1.1.0",
+    "bs58check": "^2.0.0",
     "ripple-bs58check": "^2.0.0",
     "create-hash": "^1.1.0",
     "create-hmac": "^1.1.3",
