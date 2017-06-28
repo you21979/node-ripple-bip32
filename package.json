@@ -1,6 +1,6 @@
 {
   "name": "ripple-bip32",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "bip32 for ripple",
   "main": "index.js",
   "scripts": {
