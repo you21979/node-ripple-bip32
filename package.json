@@ -31,6 +31,7 @@
   "keywords": [
     "ripple",
     "bip32",
+    "ledgerwallet",
     "wallet"
   ],
   "author": "Yuki Akiyama",
