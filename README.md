@@ -2,6 +2,8 @@
 
 bip32 for ripple
 
+compatible with ledger wallet nano s
+
 ## warning
 
 this library is experimental status
