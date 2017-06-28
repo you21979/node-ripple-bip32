@@ -1,6 +1,6 @@
 {
   "name": "ripple-bip32",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "bip32 for ripple",
   "main": "index.js",
   "scripts": {
@@ -29,7 +29,7 @@
   "keywords": [
     "ripple",
     "bip32",
-    "hierarchical deterministic wallet"
+    "wallet"
   ],
   "author": "Yuki Akiyama",
   "license": "MIT",
