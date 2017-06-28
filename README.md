@@ -13,4 +13,6 @@ npm i ripple-bip32
 
 see example directory
 
+## original library
 
+https://github.com/bitcoinjs/bitcoinjs-lib
