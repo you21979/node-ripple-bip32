@@ -1,5 +1,8 @@
 # node-ripple-bip32
 
+[![Build Status](https://secure.travis-ci.org/you21979/node-ripple-bip32.png?branch=master)](https://travis-ci.org/you21979/node-ripple-bip32)
+[![Coverage Status](https://coveralls.io/repos/github/you21979/node-ripple-bip32/badge.svg?branch=master)](https://coveralls.io/github/you21979/node-ripple-bip32?branch=master)
+
 bip32 for ripple
 
 compatible with ledger wallet nano s
