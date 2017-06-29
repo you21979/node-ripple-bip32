@@ -21,6 +21,7 @@ describe('test', function () {
         assert(m.derivePath("m/44'/144'/0'/0/1").keyPair.getKeyPairs().privateKey === "0006DC564DED833DEEB16394D2B8A94B9DEC2AB7E839344EE44E271EF565157CA8")
     })
     it('compatible test 0 - 19', function () {
+        this.timeout(5000);
         var m = bip32.fromSeedBuffer(masterseed);
         m = m.derivePath("m/44'/144'/0'")
         for(var i = 0; i<20; ++i){
@@ -29,6 +30,7 @@ describe('test', function () {
         }
     })
     it('compatible test 20 - 39', function () {
+        this.timeout(5000);
         var m = bip32.fromSeedBuffer(masterseed);
         m = m.derivePath("m/44'/144'/0'")
         for(var i = 20; i<40; ++i){
@@ -37,6 +39,7 @@ describe('test', function () {
         }
     })
     it('compatible test 40 - 59', function () {
+        this.timeout(5000);
         var m = bip32.fromSeedBuffer(masterseed);
         m = m.derivePath("m/44'/144'/0'")
         for(var i = 40; i<60; ++i){
