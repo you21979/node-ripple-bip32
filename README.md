@@ -42,6 +42,10 @@ console.log(m.derivePath("m/44'/144'/0'/0/0").getAddress())
 console.log(m.derivePath("m/44'/144'/0'/0/0").keyPair.getKeyPairs())
 ```
 
+## transaction sign ?
+
+see https://github.com/you21979/node-ripple-sign-keypairs
+
 ## original library
 
 https://github.com/bitcoinjs/bitcoinjs-lib
