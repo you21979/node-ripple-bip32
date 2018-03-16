@@ -47,7 +47,7 @@ console.log(m.derivePath("m/44'/144'/0'/0/0").keyPair.getKeyPairs())
 ## transaction sign ?
 
 
-To sign using the secret key generated using this library, please see below.  
+To sign using the private key generated using this library, please see below.  
 
 see https://github.com/you21979/node-ripple-sign-keypairs
 
