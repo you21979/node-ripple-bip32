@@ -1,5 +1,6 @@
 # node-ripple-bip32
 
+[![NPM](https://nodei.co/npm/ripple-bip32.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/ripple-bip32)
 [![Build Status](https://secure.travis-ci.org/you21979/node-ripple-bip32.png?branch=master)](https://travis-ci.org/you21979/node-ripple-bip32)
 [![Coverage Status](https://coveralls.io/repos/github/you21979/node-ripple-bip32/badge.svg?branch=master)](https://coveralls.io/github/you21979/node-ripple-bip32?branch=master)
 
@@ -9,7 +10,8 @@ compatible with ledger wallet nano s
 
 ## warning
 
-this library is experimental status
+There is no ripple secret key of the ripple address created using this library, so care must be taken when handling it.
+You can not use the ripple ecosystem handling existing ripple secret keys.
 
 ## install
 
@@ -43,6 +45,9 @@ console.log(m.derivePath("m/44'/144'/0'/0/0").keyPair.getKeyPairs())
 ```
 
 ## transaction sign ?
+
+
+To sign using the secret key generated using this library, please see below.  
 
 see https://github.com/you21979/node-ripple-sign-keypairs
 
